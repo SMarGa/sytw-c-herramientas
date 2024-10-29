@@ -8,5 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^1.2.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^6.2.0"
+  }
 }

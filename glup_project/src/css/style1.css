@@ -1,0 +1,12 @@
+.article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.articlesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
