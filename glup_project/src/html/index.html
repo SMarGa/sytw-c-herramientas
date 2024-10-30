@@ -3,21 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Proyecto Web</title>
+    <title>Delicious Recipes</title>
     <link rel="stylesheet" href="css/bundle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <h1>News API</h1>
-      <p>
-        This is a simple news API that fetches news from the News API and
-        displays it.
-      </p>
-      <button id="fetchNewsButton">Fetch News</button>
-      <button id="clearNewsButton">Clear News</button>
-    </div>
+    <header class="main-header">
+      <nav class="nav-container">
+        <div class="logo">
+          <h1>Tasty Bites</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <div id="articlesContainer" class="articlesContainer"></div>
+    <main class="container">
+      <section class="hero-section">
+        <h2>Discover Our Delicious Menu</h2>
+        <p>
+          Explore our carefully crafted selection of mouth-watering dishes, made
+          with fresh ingredients and love.
+        </p>
+        <button id="fetchNewsButton" class="btn-primary">
+          Show Menu Items
+        </button>
+        <button id="clearNewsButton" class="btn-secondary">Clear Menu</button>
+      </section>
+
+      <section id="articlesContainer" class="articlesContainer"></section>
+    </main>
+
+    <footer class="main-footer">
+      <p>&copy; 2024 Tasty Bites. All rights reserved.</p>
+    </footer>
 
     <script type="module" src="js/script1.js"></script>
     <script type="module" src="js/script2.js"></script>

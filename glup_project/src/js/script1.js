@@ -1,15 +1,27 @@
 const dataMock = [
   {
-    title: "Burger",
+    title: "Classic Cheeseburger",
     description:
-      "A juicy beef patty topped with melted cheese, crisp lettuce, ripe tomatoes, and onions, served on a toasted sesame seed bun. Our signature burger is cooked to perfection and comes with a side of golden french fries.",
-    img: "images/img1.jpeg",
+      "A juicy beef patty topped with melted cheddar cheese, fresh lettuce, tomatoes, and our special sauce, served on a toasted brioche bun. Comes with crispy fries.",
+    img: "images/burger.jpg",
   },
   {
-    title: "Menu",
+    title: "Mediterranean Salad",
     description:
-      "Our menu features a delicious selection of handcrafted dishes made with fresh, high-quality ingredients. From juicy burgers and crispy fries to fresh salads and homemade desserts, there's something for everyone. Our chefs take pride in preparing each dish with care and attention to detail. Come experience our warm atmosphere and exceptional food that will keep you coming back for more.",
-    img: "images/img2.jpeg",
+      "Fresh mixed greens, cherry tomatoes, cucumber, red onions, Kalamata olives, and feta cheese, drizzled with our house-made vinaigrette.",
+    img: "images/salad.jpeg",
+  },
+  {
+    title: "Margherita Pizza",
+    description:
+      "Hand-stretched dough topped with San Marzano tomato sauce, fresh mozzarella, basil leaves, and extra virgin olive oil. Baked in our wood-fired oven.",
+    img: "images/pizza.jpeg",
+  },
+  {
+    title: "Chocolate Lava Cake",
+    description:
+      "Warm chocolate cake with a molten center, served with vanilla ice cream and fresh berries. A chocolate lover's dream.",
+    img: "images/dessert.jpeg",
   },
 ];
 
